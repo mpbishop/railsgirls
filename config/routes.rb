@@ -57,5 +57,5 @@ Railsgirls::Application.routes.draw do
   #     resources :products
   # end
   
-  root :to redirect('/ideas')
+  root :to => redirect('/ideas')
 end
